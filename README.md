@@ -76,7 +76,7 @@ gitで管理されていない状態。
 管理するためにはgit add で追加が必要
 
 ### tracked
-https://github.com/lee-1104/git-exercise/issues/1#issue-3033524146   
+![Image](https://github.com/user-attachments/assets/8474f183-a9c5-4d1f-b87a-3719a8fb5888)
 * staged   
 
 
@@ -100,15 +100,23 @@ git config --global core.editor vim
 
 git push [名前]　[ブランチ]
 
-### git branch
+## git branch
 
 ブランチごとに管理できる。
 複数の方向で開発するときに便利
 
-#### git branch
+### git branch
 現在のブランチを確認できる
 
 > 各自の名前でブランチを作ってみる
+
+### git branch [ブランチ名]
+
+新しいブランチの作成
+
+### git checkout [ブランチ名]
+特定ブランチに移動
+> 最近は git switch [ブランチ名]
 
 
 
