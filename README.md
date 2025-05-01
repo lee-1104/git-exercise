@@ -47,24 +47,70 @@
 
 名前をつけてレポジトリ指定　⇒　ブランチの生成
 
-### 2.2.1 git init
+### 3.1 git init
+
 レポジトリを設定する。作業する領域を指定する命令語。
-### 2.2.2 git remote
+### 3.2 git remote
+
 git remoteは外部ののURL(githubなど)に名前をつけて管理する命令語
 
-git remote add [名前]　[url]
+git remote add [名前] [url]
 
 名前はローカルで扱うためのもの。
 urlは外部のレポジトリのURL
-### 2.2.3 cloneした場合は？
+### 3.3 cloneした場合は？
 
 cloneで持ってきたレポジトリのURLは自動的に登録されている。
+
+git clone [URL]
 
 -vは？
 すべての内容を出力する。
 
+## gitのファイル状態
+
+gitのファイルは状態を持ちます。
+
+### untracked
+gitで管理されていない状態。
+管理するためにはgit add で追加が必要
+
+### tracked
+https://github.com/lee-1104/git-exercise/issues/1#issue-3033524146   
+* staged   
+
+
+* unmodified
+
+
+* modified
+
+
+
+### git add & commit
+
+git add [ファイル名]
+
+git commit -m "test"
+
+> commitのエディタを変更する方法
+git config --global core.editor vim
+
 ### git push
 
 git push [名前]　[ブランチ]
+
+### git branch
+
+ブランチごとに管理できる。
+複数の方向で開発するときに便利
+
+#### git branch
+現在のブランチを確認できる
+
+> 各自の名前でブランチを作ってみる
+
+
+
 
 
