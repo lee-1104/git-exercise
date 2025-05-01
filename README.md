@@ -103,7 +103,8 @@ gitのファイルは状態を持ちます。
 
 ### untracked
 gitで管理されていない状態。
-管理するためにはgit add で追加が必要
+管理するためにはgit add で追加が必要。これをステージングという。
+git add .　とすると変更されたすべての変更がステージングされる。
 
 ### tracked
 ![Image](https://github.com/user-attachments/assets/8474f183-a9c5-4d1f-b87a-3719a8fb5888)
